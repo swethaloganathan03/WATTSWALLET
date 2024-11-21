@@ -1,0 +1,46 @@
+.receipt-container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+}
+.anu{
+    background-image: url('purple.avif'); /* Update the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    height: 100vh; /* Ensure the body takes full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-button, .pay-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.download-button:hover, .pay-button:hover {
+    background-color: #0056b3;
+}
+
+.pay-button {
+    background-color: #FFA500;
+}
+
+.pay-button:hover {
+    background-color: #FF8C00;
+}

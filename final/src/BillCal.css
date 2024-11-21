@@ -1,0 +1,58 @@
+.bill-calculator-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(to right, #5e2c7a, #3b0f8a, #26098e); /* Gradient background */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent to show the gradient */
+}
+
+.form-group select, .form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculate-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.calculate-button:hover {
+    background-color: #c9302c;
+}
+
+.note {
+    font-size: 12px;
+    background: linear-gradient(to right, #5e2c7a, #3b0f8a, #26098e); /* Gradient background */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent to show the gradient */
+    margin-top: 20px;
+}

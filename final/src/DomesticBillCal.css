@@ -1,0 +1,73 @@
+.domestic-bill-calculator {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.form-group input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.calculate-button {
+    padding: 5px 10px;
+    background-color: #f0ad4e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.calculate-button:hover {
+    background-color: #ec971f;
+}
+
+.bill-result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.highlight {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.bill-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bill-table th, .bill-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.bill-table th {
+    background-color: #f2f2f2;
+}

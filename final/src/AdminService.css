@@ -1,0 +1,53 @@
+.admin-service-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for two boxes per row */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items at the top of the container */
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('purple.avif'); /* Add your background image */
+    background-size: cover; /* Cover the entire background */
+    padding: 20px; /* Padding around the container */
+}
+
+.service-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+    padding: 20px; /* Padding inside the service boxes */
+    margin: 15px; /* Margin between service boxes */
+    width: 400px; /* Fixed width for service boxes */
+    height: 200px; /* Fixed height to ensure equal size */
+    text-align: center; /* Center align text inside service boxes */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Distribute space between elements */
+}
+
+.service-box h3 {
+    margin-bottom: 10px; /* Spacing below the heading */
+    color: #3b0f8a; /* Color for the headings */
+}
+
+.service-box p {
+    color: #555; /* Dark gray text color for paragraph */
+    margin-bottom: 20px; /* Spacing below paragraph */
+}
+
+.service-box button {
+    background-color: #3b0f8a; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded button corners */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.service-box button:hover {
+    background-color: #5e2c7a; /* Darker shade on hover */
+}
+
+.service-box:hover {
+    transform: scale(1.02); /* Slightly increase size on hover */
+}

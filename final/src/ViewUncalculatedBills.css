@@ -1,0 +1,53 @@
+/* ViewUncalculatedBills.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(194, 16, 16, 0.1);
+    text-align: center;
+   
+}
+
+.spotify{
+    background-image: url('purple.avif');
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bills-table th,
+.bills-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.bills-table th {
+    background-color: #5e026c;
+    color: white;
+}
+
+.calculate-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calculate-button:hover {
+    background-color: #218838;
+}

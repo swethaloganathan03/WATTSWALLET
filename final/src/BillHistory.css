@@ -1,0 +1,54 @@
+.dingu {
+    background-image: url('purple.avif');/* Make sure the path to your image is correct */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat:repeat-x; /* Prevent the background image from repeating */
+    height: 100vh; /* Set height to cover the viewport */
+}
+
+.bill-history-container {
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative; /* Position relative for background image */
+    z-index: 1; /* Ensure it sits above the background image */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #3b0f8a; /* Heading color */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    text-align: center; /* Center align the error message */
+    margin-bottom: 15px; /* Spacing below error message */
+}
+
+.bill-history-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.bill-history-list li {
+    padding: 15px; /* Padding for each list item */
+    border-bottom: 1px solid #ccc; /* Border between list items */
+    color: #333; /* Dark gray color for list items */
+    display: block; /* Ensure each item takes up full width */
+    margin-bottom: 10px; /* Space below each item */
+    background: rgba(240, 240, 240, 0.8); /* Light gray background for contrast */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.bill-history-list li:last-child {
+    border-bottom: none; /* Remove border for the last list item */
+}
+
+p {
+    text-align: center; /* Center align the paragraph */
+    color: #555; /* Dark gray color for no bills message */
+}

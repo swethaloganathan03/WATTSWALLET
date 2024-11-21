@@ -1,0 +1,80 @@
+/* Container with background image and padding */
+.rain {
+    background-image: url('purple.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 20px; /* Padding on both sides for spacing */
+    display: flex;
+    justify-content: center; /* Center align content horizontally */
+}
+
+/* Centered bill calculator container */
+.bill-calculator-container {
+    max-width: 600px; /* Set a maximum width for the container */
+    width: 100%; /* Ensure it takes full width on smaller screens */
+    margin: 50px auto; /* Center the container vertically with some top margin */
+    padding: 20px; /* Add padding inside the container */
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    text-align: center;
+    color: #3b0f8a;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #3b0f8a;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b0f8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2d096b;
+}
+
+.calculated-bill {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(220, 255, 220, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: #3b0f8a;
+}

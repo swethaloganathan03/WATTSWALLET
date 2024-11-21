@@ -1,0 +1,187 @@
+/* Basic Styles */
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #5e2c7a, #3b0f8a, #26098e); /* Smooth gradient */
+    padding: 50px 20px; /* Adjusted padding for the navbar */
+    z-index: 1000;
+}
+
+
+  
+  /* Navbar List */
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar List Items */
+  .navbar-list li {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Ensure all links are styled similarly to the li elements */
+  .navbar-list li a {
+    color: white; /* Set link text color to white */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Change color on hover */
+  .navbar-list li:hover,
+  .navbar-list li a:hover {
+    color: #ccc; /* Change to light gray on hover */
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px; /* Adjusted to ensure it's below the navbar */
+    padding: 60px;
+    height: 400px; /* Ensures that both image and content are the same height */
+  }
+  
+  /* Ensures uniform size for both images */
+  .image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Sets a maximum height to align with the text */
+  }
+  
+  .center-content {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+  }
+  
+  /* Text styles for the welcome message */
+  .welcome-text {
+    font-size: 40px; /* Increased size */
+    font-style: italic; /* Italic style */
+    background: linear-gradient(to right, #5e2c7a, #3b0f8a, #26098e); /* Gradient background */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* Makes the text color transparent to show the gradient */
+    margin: 0;
+}
+  .slogan-text {
+    font-size: 24px; /* Increased size */
+    font-style: italic; /* Italic style */
+    color: gray;
+    margin: 10px 0;
+  }
+  
+  /* Services Section */
+  /* Services Section Styles */
+/* Services Section Styles */
+.chin {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bbb {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px; /* Maximum width for the boxes */
+    margin: 20px 0;
+  }
+  
+  .aaa{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%; /* Width for each box */
+    text-align: center;
+  }
+  
+  .service-box img.service-image {
+    width: 300px; /* Full width for the image */
+    height: auto; /* Keep the aspect ratio */
+    max-height: 200px; /* Limit the height */
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  
+  .service-box h3 {
+    margin: 0 0 10px;
+  }
+  
+  .service-box p {
+    margin: 0 0 20px;
+  }
+  
+  .see-more-btn {
+    background: linear-gradient(to right, #5e2c7a, #3b0f8a, #26098e);  /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .see-more-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+   
+  /* About Us Section */
+.about-us-section {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin: 40px 0; /* Margin above and below the section */
+    padding: 20px; /* Padding around the section */
+  }
+  
+  /* Side Image */
+  .side-image {
+    width: 50%; /* Make the image take up 50% of the width */
+    height: auto; /* Keep the aspect ratio */
+    max-width: 500px; /* Limit the maximum width of the image */
+    margin-right: 20px; /* Space between the image and content */
+  }
+  
+  /* About Us Content */
+  .about-us-content {
+    width: 50%; /* Make the content take up 50% of the width */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Title Style */
+  .about-us-content h2 {
+    font-size: 28px; /* Font size for the title */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  /* Paragraph Style */
+  .about-us-content p {
+    margin-left: 50px;
+    font-size: 16px; /* Font size for the paragraph */
+    line-height: 1.5; /* Line height for better readability */
+    color: #555; /* Color for the paragraph text */
+  }
+  

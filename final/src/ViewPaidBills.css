@@ -1,0 +1,61 @@
+.paid-bills-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.paid-bills-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-image: url('purple.avif'); /* Adjust the image URL if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.paid-bills-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Adjust the width as needed */
+    max-width: 800px; /* Ensures the container doesn't stretch too wide */
+    text-align: center;
+}
+
+
+.paid-bills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.paid-bills-table th, .paid-bills-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.paid-bills-table th {
+    background-color: #500b70;
+    color: white;
+    font-weight: bold;
+}
+
+.paid-bills-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.paid-bills-table tr:hover {
+    background-color: #ddd;
+}
